@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import Popup from "./components/popup/Popup";
 
 const App = () => {
-  const [orderPopup, setOrderPopup] = useState(true);
+  const [orderPopup, setOrderPopup] = useState(false);
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
